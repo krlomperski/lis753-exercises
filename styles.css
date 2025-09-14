@@ -1,0 +1,36 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h1 {
+  color: #2596be;
+  font-size: 72px;
+  letter-spacing: -3px;
+  margin-top: 0;
+  margin-bottom: .125em;
+  text-align: center;
+}
+
+p {
+  background: #d4effb;
+}
+
+figure {
+  border: 1px solid black;
+  padding: 12px;
+  padding-bottom: 24px; 
+}
+
+figure img {
+  width: 50%;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+p img {
+  float: right;
+  max-width: 100%;
+  margin-left: 20px;
+  margin-bottom: 32px;
+}
