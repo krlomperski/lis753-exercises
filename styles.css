@@ -35,16 +35,26 @@ p img {
   margin-bottom: 32px;
 }
 
-a {
-  font-weight: bold;
-  color: green;
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding-left: 0;
+  border: 1px solid #0272bd;
 }
 
-ul li a {
+a {
+  font-weight: bold;
+  color: #0599fc;
   text-decoration: none;
-
+  padding: 12px;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 ul li a:hover {
   text-decoration: underline;
+  
 }
