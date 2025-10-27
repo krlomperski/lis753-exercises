@@ -3,26 +3,20 @@ body {
   Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
+/* Skip to Content Link */
 .skip-link {
-  position: absolute;
-  top: 15px;              /* places it near the top */
-  right: 20px;            /* moves it to the right side of the header */
-  background: #1105fc;    /* matches your <h1> color */
-  color: white;           
-  font-weight: bold;
+  position: absolute;             
+  left: 20px;            /* moves it to the left side of the header */
+  background: #1105fc;    /* matches <h1> color */
+  color: white;           /* readable text color */
+  font-weight: 700;
   font-size: 16px;
-  padding: 8px 16px;
-  border-radius: 6px;
-  text-decoration: none;
-  z-index: 100;
-  transform: translateY(-150%); /* hides it off-screen initially */
-  transition: transform 0.3s ease, background 0.3s ease;
+  padding: 4px;
+  transform: translateY(-100%); /* hides it off-screen initially */
 }
 
-/* When focused (Tab key), bring it into view */
 .skip-link:focus {
   transform: translateY(0%);
-  background: #053bfc;
 }
 
 h1 {
