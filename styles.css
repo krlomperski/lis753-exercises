@@ -44,6 +44,19 @@ figure img {
   margin-bottom: 12px;
 }
 
+figure.main-image {
+  background: rgb(147, 196, 230);
+  border-color: #0259bd
+  color: #ffffff;
+}
+
+figure.section-image {
+   float: right;
+  max-width: 100%;
+  margin-left: 20px;
+  margin-bottom: 32px;
+}
+
 p img {
   float: right;
   max-width: 100%;
