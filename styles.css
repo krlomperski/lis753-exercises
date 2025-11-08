@@ -20,7 +20,9 @@ body {
 }
 
 .container {
-  
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
 h1#site-title {
