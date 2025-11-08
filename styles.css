@@ -19,6 +19,10 @@ body {
   transform: translateY(0%);
 }
 
+.container {
+  
+}
+
 h1#site-title {
  color: #1105fc;
   font-size: 72px;
