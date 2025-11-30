@@ -18,10 +18,8 @@ body {
   padding: 8px 16px;
   border-radius: 4px;
   text-decoration: none;
-  z-index: 1000;
 
   transform: translateY(-150%);
-  transition: transform 0.3s ease;
 }
 
 .skip-link:focus {
@@ -93,7 +91,6 @@ li {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .book-image figcaption {
@@ -122,20 +119,4 @@ a:focus {
 
 #site-footer p {
   margin: 6px 0;
-}
-
-@media (max-width: 600px) {
-  header,
-  main,
-  #site-footer {
-    padding: 16px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
 }
