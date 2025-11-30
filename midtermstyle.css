@@ -1,0 +1,150 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f5f7fb;
+  color: #222;
+}
+
+.skip-link {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background: #1105fc;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  z-index: 1000;
+
+  transform: translateY(-150%);
+  transition: transform 0.3s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0%);
+}
+
+header,
+main,
+#site-footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  text-align: center;
+  background-color: #e7ecff;
+  border-bottom: 2px solid #1105fc;
+}
+
+h1 {
+  color: #1105fc;
+  font-size: 36px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0;
+  color: #333;
+}
+
+h2 {
+  color: #053bfc;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 4px 0 12px 0;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+.note {
+  background-color: #eef1ff;
+  border-left: 4px solid #053bfc;
+  padding: 8px 12px;
+  margin-top: 8px;
+}
+
+.book-image {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.book-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.book-image figcaption {
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+}
+
+a {
+  color: #053bfc;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+#site-footer {
+  margin-top: 32px;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  text-align: center;
+  background-color: #eef1ff;
+  padding-bottom: 24px;
+}
+
+#site-footer p {
+  margin: 6px 0;
+}
+
+@media (max-width: 600px) {
+  header,
+  main,
+  #site-footer {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
